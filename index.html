@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FormGet</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      b {
+        color: orange;
+      }
+      h2 {
+        color: darkblue;
+        text-align: center;
+      }
+      body {
+        background-color: gray;
+      }
+      form {
+        background-color: white;
+        padding: 50px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+      .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      input {
+        width: 300px;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        border: 1px solid grey;
+      }
+      button {
+        background-color: tomato;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+      }
+      .butt{
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h2>Form<b>Get</b></h2>
+        <label for="fname">Full Name</label><br />
+        <input
+          type="text"
+          id="fname"
+          name="blb"
+          placeholder="Full Name"
+        /><br />
+        <label for="email">Email</label><br />
+        <input type="text" id="email" name="blb" placeholder="Email" /><br />
+        <label for="ctnum">Contact Number</label><br />
+        <input
+          type="number"
+          id="ctnum"
+          name="blb"
+          placeholder="Contact Number"
+        /><br />
+        <label for="addr">Address</label><br />
+        <input type="text" id="addr" name="blb" value="Address" /><br /><br />
+        <div class="butt" ><button>submit</button></div>
+      </form>
+    </div>
+  </body>
+</html>
